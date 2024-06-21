@@ -1,0 +1,32 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(61, 68, 1);
+    color: white;
+}
+img{
+    width: 300px;
+    height: auto;
+}
+
+p{
+
+    font-weight: bold;
+    font-size: 40px;
+    margin: 0;
+    
+}
+.top-left-contant ,.top-right-contant , .bottom-left-contant , .bottom-right-contant{
+    display: inline-block;
+    margin-right: 20px;
+    margin-bottom: 40px;
+    padding: 20px;
+    background-color: rgb(66, 3, 3);
+    text-align: center;
+}
+.top-contant .top-right-contant{
+    margin: 0 0 0 auto;
+}
